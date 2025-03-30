@@ -1,31 +1,22 @@
-import { ActionPanel, Action, Icon, List } from "@raycast/api";
-
-const ITEMS = Array.from(Array(3).keys()).map((key) => {
-  return {
-    id: key,
-    icon: Icon.Bird,
-    title: "Title " + key,
-    subtitle: "Subtitle",
-    accessory: "Accessory",
-  };
-});
+import { List } from "@raycast/api";
+import shortcuts from "./shortcuts";
 
 export default function Command() {
+  const platform: NodeJS.Platform = process.platform;
+  const os = platform === 'darwin' ? 'macOS' : 'Windows/Linux';
+
   return (
     <List>
-      {ITEMS.map((item) => (
-        <List.Item
-          key={item.id}
-          icon={item.icon}
-          title={item.title}
-          subtitle={item.subtitle}
-          accessories={[{ icon: Icon.Text, text: item.accessory }]}
-          actions={
-            <ActionPanel>
-              <Action.CopyToClipboard content={item.title} />
-            </ActionPanel>
-          }
-        />
+      {Object.keys(shortcuts).map(key => (
+        <List.Section key={key} title={key}>
+          {shortcuts[key].map(item => (
+            <List.Item
+            key={item.action}
+            title={item.action}
+            subtitle={item[os]}
+          />
+          ))}
+        </List.Section>
       ))}
     </List>
   );
