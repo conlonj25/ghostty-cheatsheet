@@ -5,6 +5,9 @@
   "description": "Cheatsheet of Ghostty keyboard shortcuts",
   "icon": "extension-icon.png",
   "author": "conlonj25",
+  "categories": [
+    "Documentation"
+  ],
   "license": "MIT",
   "commands": [
     {
