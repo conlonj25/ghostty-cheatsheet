@@ -1,4 +1,4 @@
-# Cheatsheet Ghostty
+# Ghostty Cheatsheet
 
 Raycast Extension - Cheatsheet of Ghostty keyboard shortcuts
 
