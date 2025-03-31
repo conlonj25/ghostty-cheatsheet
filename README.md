@@ -1,12 +1,10 @@
 # Ghostty Cheatsheet
 
-Raycast Extension - Cheatsheet of Ghostty keyboard shortcuts
-
 <p align="center"><img src="/assets/extension-icon.png" alt="Ghostty Cheatsheet Icon" width="250"/></p>
 
 # Ghostty Keyboard Shortcuts
 
-Default keyboard shortcuts for Ghostty terminal emulator. Platform-specific differences are noted where applicable.
+Default keyboard shortcuts for Ghostty terminal emulator.
 
 ## Window Management
 
