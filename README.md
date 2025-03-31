@@ -6,6 +6,8 @@
 
 Default keyboard shortcuts for Ghostty terminal emulator.
 
+Note: These are the default keybindings. All keybindings can be customized through the configuration file using the `keybind` option.
+
 ## Window Management
 
 | Action            | Windows/Linux | macOS               |
@@ -26,7 +28,6 @@ Default keyboard shortcuts for Ghostty terminal emulator.
 | Next tab          | Ctrl+Tab, Ctrl+⇧+→, Ctrl+Page Down | ⌘+⇧+]   |
 | Go to tab 1-8     | Alt+[1-8]                          | ⌘+[1-8] |
 | Go to last tab    | Alt+9                              | ⌘+9     |
-| Move tab          | -                                  | -       |
 
 ## Split Management
 
@@ -94,5 +95,3 @@ Default keyboard shortcuts for Ghostty terminal emulator.
 | -------------------------------- | ------------- | ------- |
 | Write scrollback to file (paste) | Ctrl+⇧+J      | ⌘+⇧+J   |
 | Write scrollback to file (open)  | Ctrl+⇧+Alt+J  | ⌘+⇧+⌥+J |
-
-Note: These are the default keybindings. All keybindings can be customized through the configuration file using the `keybind` ⌥.
