@@ -2,7 +2,7 @@
 
 Raycast Extension - Cheatsheet of Ghostty keyboard shortcuts
 
-<p align="center"><img src="/assets/extension-icon.png" alt="Ghostty Cheatsheet Icon"/></p>
+<p align="center"><img src="/assets/extension-icon.png" alt="Ghostty Cheatsheet Icon" width="250"/></p>
 
 # Ghostty Keyboard Shortcuts
 
